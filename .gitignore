@@ -56,3 +56,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# default download dir
+paper/

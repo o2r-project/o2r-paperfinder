@@ -1,0 +1,23 @@
+{
+  "name": "paperfinder",
+  "version": "0.0.1",
+  "description": "Node.js tools for downloading papers matching certain criteria.",
+  "main": "paperfinder.js",
+  "scripts": {
+    "start": "node paperfinder.js"
+  },
+  "author": "o2r-project (http://o2r.info)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/o2r-project/o2r-paperfinder.git"
+  },
+  "dependencies": {
+    "debug": "*",
+    "download": "*",
+    "filenamify-url": "^1.0.0",
+    "filesize": "^3.5.10",
+    "pdf-text-extract": "^1.5.0",
+    "ssl-root-cas": "^1.2.3"
+  }
+}
